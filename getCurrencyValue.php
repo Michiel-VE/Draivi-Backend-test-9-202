@@ -4,7 +4,7 @@ function getGBPValue($url) {
     $req = curl_init();
 
     curl_setopt($req, CURLOPT_URL, $url);
-    //enable to save the value
+    // needed to save the response
     curl_setopt($req, CURLOPT_RETURNTRANSFER, true);
 
     $response = curl_exec($req);

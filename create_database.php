@@ -61,7 +61,7 @@ try {
                                              price = VALUES(price), 
                                              priceGBP = VALUES(priceGBP) ");
 
-
+    // start from row 4
     for ($i = 4; $i < count($excelData); $i++) {
         $row = $excelData[$i];
 
