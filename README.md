@@ -1,5 +1,15 @@
 # Draivi-Backend-test-9-202
 
+## Technologies Used
+
+- PHP 8.2
+- MySQL
+- JavaScript
+- HTMLS
+- [PhpSpreadsheet](https://phpspreadsheet.readthedocs.io/) for reading Excel files
+- cURL for making API requests
+- XAMPP
+
 ## Environment
 ### XAMPP
 1. Download XAMPP & install
@@ -26,3 +36,15 @@ composer --version
 ```
 composer require phpoffice/phpspreadsheet
 ```
+OR run
+```
+composer install
+```
+
+### env
+Make sure to add your own .env file so the database credentials can be stored
+
+## Running the code
+1. Make sure XAMPP MySQL module is running
+2. In editor run the script as normal
+3. To see FE, open the browser through the editor, and it functions as a normal website 
